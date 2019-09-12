@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'opendyslexic';
+    src: url('fonts/opendyslexic3-regular-webfont.eot');
+	src: local('opendyslexic3-regular'),
+		local('opendyslexic3'),
+		local('opendyslexic'),
+		local('open-dyslexic'),
+		url('fonts/opendyslexic3-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/opendyslexic3-regular-webfont.woff2') format('woff2'),
+		url('fonts/opendyslexic3-regular-webfont.woff') format('woff'),
+		url('fonts/opendyslexic3-regular-webfont.ttf') format('truetype'),
+		url('fonts/opendyslexic3-regular-webfont.svg#opendyslexic3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+.card, #page-enrol-users #filterform, .que .history, .userprofile .profile_tree section, .groupinfobox, .well {
+	background-color:red;
+}
+*/
+.box-color-picker {
+	border-color:black;
+	border-style:solid;
+	width:30px;
+	height:30px;
+}
+
+.box-color-picker.red{
+	background-color:red;
+}
+
+.form-input-wrapper {
+    margin: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.form-label {
+    line-height: 17px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.form-input-theme-wrapper {
+    display: block;
+}
+
+.form-input-theme {
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    min-width: 47px;
+    text-align: center;
+    border: 2px solid #DDDDDD;
+    font-size: 16px;
+}
+
+.form-input-theme.form-input-theme-1 {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.form-input-theme.form-input-theme-2 {
+    background-color: #111111;
+    color: #FFFFFF;
+}
+
+.form-input-theme.form-input-theme-3 {
+    background-color: #F9ECFF;
+    color: #000000;
+}
+
+.form-input-theme.form-input-theme-4 {
+    background-color: #FEFF5C;
+    color: #000000;
+}
+
+.form-input-theme.form-input-theme-5 {
+    background-color: #87FAFF;
+    color: #000000;
+}
+
+.form-input-theme.form-input-theme-6 {
+    background-color: #91FFA6;
+    color: #000000;
+}
+
+.form-input-theme.active{
+    border: 2px solid #000000;
+}
