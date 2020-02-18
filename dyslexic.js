@@ -13,6 +13,14 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+/**
+ * Script for explaining effect of dyslexic
+ *
+ * @package    block_dyslexic
+ * @copyright  2016 onwards Geon {@link https://geon.github.io/programming/2016/03/03/dsxyliea}
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @author     Geon
+ */
 
 $(function(){
 

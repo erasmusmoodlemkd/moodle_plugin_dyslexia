@@ -91,6 +91,23 @@
     color: #000000;
 }
 
+.form-input-theme.form-input-theme-7 {
+    background-color: #E8F086;
+    color: #0A284B;
+}
+
+.form-input-theme.form-input-theme-8 {
+    background-color: #BDD9BF;
+    color: #2E4052;
+}
+
+.form-input-theme.form-input-theme-9 {
+    background-color: #E1DAAE;
+    color: #848FA2;
+}
+
+
+
 .form-input-theme.active{
     border: 2px solid #000000;
 }

@@ -13,6 +13,14 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+/*
+ * Script for displaying open-dyslexic font on site
+ *
+ * @package    block_dyslexic
+ * @copyright  2016 onwards Éric Bugnet {@link http://eric.bugnet.fr/}
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @author     Éric Bugnet
+ */
 
 
 
@@ -85,7 +93,7 @@ function changeColorAtt(bkg,txt) {
     var x = document.createElement("STYLE");
     /*jshint multistr: true */
     var t = document.createTextNode("\
-            .card, #page-enrol-users #filterform, .que .history, .userprofile .profile_tree section, .groupinfobox, .well \
+            .card, #page-enrol-users #filterform, .que .history, .userprofile .profile_tree section, .groupinfobox, .well, #region-main \
                 {background-color: "+bkg+" !important;} \
             body { color: "+txt+" !important}\
             ");

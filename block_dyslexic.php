@@ -14,6 +14,14 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+/**
+ * Block for displaying open-dyslexic font on site
+ *
+ * @package    block_dyslexic
+ * @copyright  2016 onwards Éric Bugnet {@link http://eric.bugnet.fr/}
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @author     Éric Bugnet
+ */
 
 defined('MOODLE_INTERNAL') || die();
 /**
@@ -56,7 +64,7 @@ class block_dyslexic extends block_base {
             <input type="submit" onclick="setCookie(\'dyslexic\', \'false\', 60);return false;" name="theme" value="'.get_string("defaut_font", "block_dyslexic").'" id="off">
             </form>
 		<hr/>
-		<h6 id="instance-29-header" class="card-title d-inline">Стил</h6>
+		<h6 id="instance-29-header" class="card-title d-inline">Style</h6>
 		<div>
 		<div class="form-input form-input-theme-wrapper">
                 	<div data-id="1" data-bcg-color="#FFFFFF" onclick="changeColor(\'#FFFFFF\',\'#000000\')" data-color="#000000" class="form-input-theme btn-chg-bkg form-input-theme-1 active">Aa</div>
@@ -65,6 +73,10 @@ class block_dyslexic extends block_base {
                 	<div data-id="4" data-bcg-color="#FEFF5C" onclick="changeColor(\'#FEFF5C\',\'#000000\')" data-color="#000000" class="form-input-theme btn-chg-bkg form-input-theme-4">Aa</div>
                 	<div data-id="5" data-bcg-color="#87FAFF" onclick="changeColor(\'#87FAFF\',\'#000000\')" data-color="#000000" class="form-input-theme btn-chg-bkg form-input-theme-5">Aa</div>
                 	<div data-id="6" data-bcg-color="#91FFA6" onclick="changeColor(\'#91FFA6\',\'#000000\')" data-color="#000000" class="form-input-theme btn-chg-bkg form-input-theme-6">Aa</div>
+					<div data-id="7" data-bcg-color="#E8F086" onclick="changeColor(\'#E8F086\',\'#0A284B\')" data-color="#0A284B" class="form-input-theme btn-chg-bkg form-input-theme-7">Aa</div> 
+					<div data-id="8" data-bcg-color="#BDD9BF" onclick="changeColor(\'#BDD9BF\',\'#2E4052\')" data-color="#2E4052" class="form-input-theme btn-chg-bkg form-input-theme-8">Aa</div> 
+					<div data-id="9" data-bcg-color="#E1DAAE" onclick="changeColor(\'#E1DAAE\',\'#848FA2\')" data-color="#848FA2" class="form-input-theme btn-chg-bkg form-input-theme-9">Aa</div> 
+					
             	</div>
 		</div>
 	   </div> ';
