@@ -76,7 +76,9 @@ class block_dyslexic extends block_base {
 					<div data-id="7" data-bcg-color="#E8F086" onclick="changeColor(\'#E8F086\',\'#0A284B\')" data-color="#0A284B" class="form-input-theme btn-chg-bkg form-input-theme-7">Aa</div> 
 					<div data-id="8" data-bcg-color="#BDD9BF" onclick="changeColor(\'#BDD9BF\',\'#2E4052\')" data-color="#2E4052" class="form-input-theme btn-chg-bkg form-input-theme-8">Aa</div> 
 					<div data-id="9" data-bcg-color="#E1DAAE" onclick="changeColor(\'#E1DAAE\',\'#848FA2\')" data-color="#848FA2" class="form-input-theme btn-chg-bkg form-input-theme-9">Aa</div> 
-					
+					<div data-id="10" data-bcg-color="#6FDE6E" onclick="changeColor(\'#6FDE6E\',\'#235FA4\')" data-color="#235FA4" class="form-input-theme btn-chg-bkg form-input-theme-10">Aa</div> 
+					<div data-id="11" data-bcg-color="#929084" onclick="changeColor(\'#929084\',\'#E5323B\')" data-color="#E5323B" class="form-input-theme btn-chg-bkg form-input-theme-11">Aa</div>
+					<div data-id="12" data-bcg-color="#CC2D35" onclick="changeColor(\'#CC2D35\',\'#848FA2\')" data-color="#848FA2" class="form-input-theme btn-chg-bkg form-input-theme-12">Aa</div>
             	</div>
 		</div>
 	   </div> ';
